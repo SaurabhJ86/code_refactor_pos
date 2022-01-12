@@ -13,6 +13,7 @@ def main() -> None:
     order.create_line_item("Homer Socks",5,200)
     order.create_line_item("Ball Pens",10,100)
     order.create_line_item("TV Remote",1,1100)
+    order.create_line_item("Bluetooth Ear Phones",2,2200)
 
     #register and process the order
     system.register_order(order)
